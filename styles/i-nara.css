@@ -1,0 +1,47 @@
+header {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.5), transparent);
+  height: 100px;
+  width: 100%;
+  padding: 0 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+}
+header h1 {
+  width: 150px;
+}
+header h1 a img {
+  width: 100%;
+}
+header .right {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header .right .app {
+  font-family: "jua", sans-serif;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  padding: 15px 25px;
+  color: #fff;
+  margin-right: 20px;
+}
+header .right .all_nav {
+  background: gray;
+}
+header .right .all_nav span {
+  display: block;
+  background: #fff;
+  width: 30px;
+  height: 5px;
+  border-radius: 15px;
+}
+header .right .all_nav span:nth-child(2) {
+  margin: 5px 0;
+}/*# sourceMappingURL=i-nara.css.map */
